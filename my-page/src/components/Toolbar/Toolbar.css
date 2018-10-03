@@ -14,10 +14,18 @@
     padding: 0 1rem;
 }
 
+.toolbar__logo {
+    margin-left: 1rem;
+}
+
 .toolbar__logo a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
+}
+
+.spacer {
+    flex: 1;
 }
 
 .toolbar__navigation-items ul {
