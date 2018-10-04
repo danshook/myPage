@@ -9,3 +9,26 @@
     max-width: 400px;
     z-index: 200;
 }
+
+.side-Drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-Drawer li {
+    margin: 0.5rem 0;
+}
+
+.side-Drawer a {
+    color: #521751;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.side-Drawer a:hover,
+.side-Drawer a:active {
+    color: #fa923f;
+}
